@@ -1,0 +1,24 @@
+.quote {
+  position: relative;
+  padding-left: 54px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 100%;
+    background-color: $mainOrange;
+  }
+  
+  & quote {
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  & p {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+}
