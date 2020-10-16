@@ -37,6 +37,8 @@
 
   @mixin atMedium {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     /* &__b-margin-until-medium {
       margin-bottom: 0;
@@ -68,7 +70,7 @@
     } */
 
     &__medium-6 {
-      display: flex;
+      /* display: flex; */
       width: 50%;
     }
 
