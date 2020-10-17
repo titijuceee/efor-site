@@ -1,0 +1,19 @@
+.site-footer {
+  background-color: $mainDark;
+  color: #fff;
+  font-size: .875rem;
+  font-weight: 300;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+}
