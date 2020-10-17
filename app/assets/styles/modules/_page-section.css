@@ -25,23 +25,10 @@
     }
   } */
 
-  &--gray {
-    background-color: #E8E8E8;
-    color: #000;
-  }
+  
 
   &--services {
     padding: 0;
-  }
-
-  &--features {
-    background-color: #e8e8e8;
-
-    @mixin atMedium {
-      padding: 4.5rem 0;
-      background: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('assets/images/grid-826831.jpg') top center no-repeat;
-      background-size: cover;
-    }
   }
 
   &--contact {

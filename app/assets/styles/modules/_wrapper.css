@@ -6,6 +6,10 @@
   margin-left: auto;
   margin-right: auto;
 
+  &--full-width {
+    max-width: 100%;
+  }
+
   &--narrow {
     max-width: 976px;
   }
@@ -14,9 +18,25 @@
     background-color: $mainOrange;
   }
 
+  &--gray {
+    background-color: #E8E8E8;
+    color: #000;
+  }
+
   &--flex {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &--features {
+    padding-top: 2.8rem;
+    background-color: #e8e8e8;
+
+    @mixin atSmall {
+      padding-top: 2.8rem;
+      background: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('assets/images/grid-826831.jpg') top center no-repeat;
+      background-size: cover;
+    }
   }
 
 }

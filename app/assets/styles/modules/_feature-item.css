@@ -1,10 +1,35 @@
 .feature-item {
   display: flex;
-  width: 100%;
+  align-items: center;
+  margin-bottom: 2.8rem;
+
+  @mixin atSmall {
+    width: 50%;
+  }
+
+  @mixin atMedium {
+    width: 33%;
+  }
+
+  &__icon {
+    width: 65px;
+    height: 65px;
+  }
 
   &__text {
-    width: 100%;
     padding-left: 15px;
-    font-size: 1.125rem;
+    font-size: 1rem;
+
+    @mixin atMedium {
+      font-size: 1.25rem;
+    }
+
+    b {
+      font-size: 1.3rem;
+
+      @mixin atMedium {
+        font-size: 1.5rem;
+      }
+    }
   }
 }

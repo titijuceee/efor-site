@@ -16,14 +16,18 @@
     padding-right: 15px;
   }
 
+  &--b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
   @mixin atMedium {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* &__b-margin-until-medium {
-      margin-bottom: 0;
-    } */
+    &--b-margin-until-medium {
+      margin-bottom: 2.8rem;
+    }
 
     &__medium-3 {
       position: relative;

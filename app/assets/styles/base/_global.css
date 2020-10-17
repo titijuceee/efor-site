@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,8 +17,8 @@ img {
   height: auto;
 }
 
-* {
-  box-sizing: border-box;
+p {
+  margin: 0;
 }
 
 a {
