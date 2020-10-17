@@ -1,5 +1,6 @@
 .row {
   position: relative;
+  display: flex;
 
   &--t-padding {
     padding-top: 80px;
@@ -46,6 +47,9 @@
     }
 
     &__medium-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 33%;
     }
 

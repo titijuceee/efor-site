@@ -10,4 +10,13 @@
     max-width: 976px;
   }
 
+  &--orange {
+    background-color: $mainOrange;
+  }
+
+  &--flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
 }
