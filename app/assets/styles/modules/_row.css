@@ -49,6 +49,10 @@
       width: 33%;
     }
 
+    &__medium-5th {
+      width: 20%;
+    }
+
     &__medium-6 {
       width: 50%;
     }
