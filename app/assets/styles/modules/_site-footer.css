@@ -2,13 +2,30 @@
   background-color: $mainDark;
   color: #fff;
   font-size: .875rem;
-  font-weight: 300;
 
   &__container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    & > div {
+      padding-bottom: 10px;
+    }
+    
+    @mixin atMedium {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 120px;
+      padding-bottom: 20px;
+
+      & > div {
+        padding-bottom: 0;
+      }
+    }
   }
 
   a {

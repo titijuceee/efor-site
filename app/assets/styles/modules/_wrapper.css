@@ -24,8 +24,16 @@
   }
 
   &--flex {
-    display: flex;
-    flex-wrap: wrap;
+
+    @mixin atMedium {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+
+  &--space-around {
+    justify-content: space-around;
   }
 
   &--features {
