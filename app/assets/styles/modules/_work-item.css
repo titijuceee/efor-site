@@ -1,8 +1,6 @@
 .work-item {
 
   @mixin atSmall {
-    display: flex;
-    flex-wrap: wrap;
     width: 50%;
   }
 
