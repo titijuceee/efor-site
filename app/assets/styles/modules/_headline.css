@@ -1,4 +1,5 @@
 .headline {
+  margin-top: 0;
   font-family: 'Special Elite', cursive;
   font-size: 2rem;
 
@@ -7,6 +8,10 @@
   }
 
   @mixin atMedium {
+    font-size: 3rem;
+  }
+
+  @mixin atLarge {
     font-size: 3.75rem;
   }
 
@@ -18,40 +23,4 @@
     color: $mainOrange;
   }
 
-  /* &--orange {
-    color: $mainOrange;
-  }
-
-  &--small {
-    font-size: 1.2rem;
-    @mixin atSmall {
-      font-size: 1.875rem;
-    }
-  }
-
-  &--narrow {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  &--light {
-    font-weight: 100;
-  }
-
-  strong {
-    font-weight: 400;
-  }
-
-  &--b-margin-small {
-    margin-bottom: .5em;
-  }
-
-  &--b-margin-large {
-    margin-bottom: 1.6em;
-  }
-
-  &--no-t-margin {
-    margin-top: 0;
-  } */
 }
