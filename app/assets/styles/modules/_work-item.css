@@ -1,0 +1,31 @@
+.work-item {
+
+  @mixin atSmall {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  @mixin atMedium {
+    width: 20%;
+  }
+
+  &__img {
+    position: relative;
+    filter: grayscale(100%);
+    transition: all .3s ease-out;
+
+    &:hover {
+      filter: none;
+    }
+
+    @mixin atSmall {
+      &:hover {
+        outline: 10px solid $mainOrange;
+        z-index: 5;
+      }
+    }
+
+  }
+
+}

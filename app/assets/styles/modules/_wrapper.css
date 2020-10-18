@@ -7,6 +7,7 @@
   margin-right: auto;
 
   &--full-width {
+    width: 100%;
     max-width: 100%;
   }
 
@@ -25,7 +26,7 @@
 
   &--flex {
 
-    @mixin atMedium {
+    @mixin atSmall {
       display: flex;
       flex-wrap: wrap;
     }

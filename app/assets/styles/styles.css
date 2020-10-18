@@ -14,5 +14,7 @@
 @import "modules/_headline";
 @import "modules/_generic-content-container";
 @import "modules/_feature-item";
-@import "modules/_site-footer";
+@import "modules/_work-item";
 @import "modules/_contact-item";
+@import "modules/_site-footer";
+
