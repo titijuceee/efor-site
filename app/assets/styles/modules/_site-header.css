@@ -30,7 +30,7 @@
     transition: transform .3s ease-out;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;
-    background-color: $mainOrange;
+    background-color: $mainDark;
     padding: 15px 20px;
 
     @mixin atMedium {
@@ -40,6 +40,11 @@
       .site-header--dark & {
         transform: scale(.55);
       }
+    }
+
+    img {
+      width: 125.75px;
+      height: 55.25px;
     }
   }
 
