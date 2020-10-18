@@ -13,12 +13,30 @@
   }
   
   & quote {
+    display: block;
+    margin-bottom: 10px;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.25rem;
+
+    @mixin atSmall {
+      font-size: 1.5rem;
+    }
+
+    @mixin atMedium {
+      font-size: 1.7rem;
+    }
   }
 
   & p {
-    font-size: 1.75rem;
+    font-size: 1rem;
     font-weight: 500;
+
+    @mixin atSmall {
+      font-size: 1.2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 1.3rem;
+    }
   }
 }
