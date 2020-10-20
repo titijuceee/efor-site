@@ -107,7 +107,14 @@
   </section>
     
   <section id="about" class="page-section">
-    <div class="wrapper wrapper--flex wrapper--align-center">
+    <div class="wrapper wrapper--flex wrapper--align-center wrapper--row-reverse">
+      <div class="about__img">
+        <picture>
+          <source sizes="600px" srcset="assets/images/about--portrait.jpg 600w, assets/images/about--portrait-hi-dpi.jpg 1200w" media="(min-width: 800px)">
+          <img class="lazyload" srcset="assets/images/about--landscape.jpg 800w, assets/images/about--landscape-hi-dpi.jpg 1600w" alt="Cégtulajdonos, Nagy Szabolcs">
+        </picture>
+      </div>
+
       <div class="about__text">
         <h2 class="headline">Kik <span>vagyunk?</span></h2>
         <p>Mi az EFORKft.-nél <b>nem ismerünk lehetetlent</b>, legyen szókisebb alumínium keréktárcsák geometriai  javításától, a gépiforgácsoláson át egészen a komplexebb célgépek tervezésétől az építésig.</p>
@@ -122,9 +129,7 @@
         </ul>
         <p>Célunk az EFOR Kft.-nél, hogy <b>a lehető legprecízebb és legjobb minőséget nyújtsuk</b> megrendelőink számára.</p>
       </div>
-      <div class="about__img">
-        <img src="assets/images/about--portrait-hi-dpi.jpg" alt="">
-      </div>
+      
     </div>
   </section>
 

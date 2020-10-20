@@ -40,6 +40,10 @@
     justify-content: space-around;
   }
 
+  &--row-reverse {
+    flex-direction: row-reverse;
+  }
+
   &--features {
     padding-top: 2.8rem;
     background-color: #e8e8e8;

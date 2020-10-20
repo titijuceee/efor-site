@@ -7,6 +7,14 @@
     }
   }
 
+  &__img {
+    padding-bottom: 2rem;
+
+    @mixin atSmall {
+      padding-bottom: 0;
+    }
+  }
+
   &__text {
 
     @mixin atSmall {
