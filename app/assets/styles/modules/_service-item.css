@@ -1,21 +1,48 @@
 .service-item {
   position: relative;
-  width: 100%;
-  height: 100%;
+  margin-top: 1.2rem;
   text-align: center;
-  border: solid red;
-  padding: 1.2rem 0;
+  background-color: $mainDark;
+  color: #fff;
+  transition: transform .3s ease-out;
 
-  @mixin atMedium {
-    padding: 4.5rem 0;
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @mixin atSmall {
+    width: 50%;
+  }
+
+  &__front {
+    padding: 2rem;
+    padding-bottom: 1.2rem;
+
+    svg {
+      width: 75px;
+      height: 75px;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
   }
   
 
   &__title {
+    margin-bottom: 0;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Special Elite', cursive;
     font-size: 1.5rem;
     text-transform: uppercase;
+  }
+
+  &__back {
+    padding: 2rem;
+    padding-top: 0;
+    font-size: 1.2rem;
   }
 
 }
