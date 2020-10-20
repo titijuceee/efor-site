@@ -10,7 +10,38 @@
   background-color: $mainOrange;
 
   &--large {
-    padding: 1.1rem 1.9rem;
+    position: relative;
+    padding: 1.1rem 2.5rem 1.1rem 1.9rem;
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      transform: skewX(-20deg);
+    }
+
+    &::after {
+      width: 35px;
+      right: -20px;
+      transform: skewX(0);
+    }
+  }
+
+  &__arrow {
+    position: relative;
+    display: inline-block;
+    top: 7px;
+    right: 20px;
+    width: 30px;
+    height: 25px;
+    background: url(assets/images/icons/arrow.svg) top center no-repeat;
+    background-size: contain;
+    z-index: 3;
   }
 
 }
