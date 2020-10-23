@@ -36,7 +36,7 @@
 
   &__title {
     font-family: 'Roboto Mono', monospace;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
   }

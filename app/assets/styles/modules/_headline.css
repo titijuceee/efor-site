@@ -1,6 +1,6 @@
 .headline {
   margin-top: 0;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', sans-serif;
   font-size: 2rem;
 
   @mixin atSmall {
