@@ -1,26 +1,29 @@
 .service-item {
   position: relative;
-  margin-top: 1.2rem;
+  padding: 2rem;
   text-align: center;
-  background-color: $mainDark;
-  color: #fff;
-  transition: transform .3s ease-out;
+  background-color: #E8E8E8;
+  transform-origin: center center;
+  transition: all .3s ease-out;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
+    background-color: $mainDark;
+    color: #fff;
+    z-index: 5;
   }
 
-  @mixin atSmall {
-    width: 50%;
+  @mixin atMedium {
+    background-color: #E8E8E8;
+    color: initial;
   }
 
-  &__front {
-    padding: 2rem;
-    padding-bottom: 1.2rem;
+  &__img {
 
     svg {
       width: 75px;
       height: 75px;
+      stroke: $mainOrange;
     }
   }
 
@@ -32,17 +35,14 @@
   
 
   &__title {
-    margin-bottom: 0;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Special Elite', cursive;
     font-size: 1.5rem;
     text-transform: uppercase;
   }
 
-  &__back {
-    padding: 2rem;
-    padding-top: 0;
-    font-size: 1.2rem;
+  &__text {
+    font-size: 1.1rem;
   }
 
 }

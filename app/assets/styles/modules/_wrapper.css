@@ -1,10 +1,14 @@
 .wrapper {
   overflow: hidden;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
+
+  & .wrapper {
+    padding: 0;
+  }
 
   &--full-width {
     width: 100%;
@@ -32,6 +36,30 @@
     }
   }
 
+  &__grid {
+    display: grid;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: visible;
+
+  }
+
+  &--col-4 {
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+
+    @mixin atSmall {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @mixin atMedium {
+      padding-top: 0;
+      padding-bottom: 0;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
   &--align-center {
     align-items: center;
   }
@@ -42,6 +70,12 @@
 
   &--row-reverse {
     flex-direction: row-reverse;
+  }
+
+  &--services {
+    @mixin atMedium {
+      background-color:  #E8E8E8;
+    }
   }
 
   &--features {
