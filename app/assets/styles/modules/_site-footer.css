@@ -31,6 +31,9 @@
   a {
     color: #fff;
     text-decoration: none;
+  }
+
+  &__foot-nav a {
     padding-right: 20px;
   }
 }
