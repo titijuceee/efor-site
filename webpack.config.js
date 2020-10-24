@@ -89,11 +89,11 @@ if (currentTask == 'build') {
   config.plugins.push(
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({filename: 'styles.[chunkhash].css'}),
-    new RunAfterCompile()  
+    new RunAfterCompile(),  
     new HtmlWebpackPlugin({
       favicon: "./app/assets/images/favicon.ico",
       filename: "index.html",
-      template: "./app/index.html",
+      template: "./app/index.html"
     })
   )
 }
