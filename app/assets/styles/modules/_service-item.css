@@ -27,13 +27,6 @@
     }
   }
 
-  &__icon {
-    display: inline-block;
-    width: 75px;
-    height: 75px;
-  }
-  
-
   &__title {
     font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;

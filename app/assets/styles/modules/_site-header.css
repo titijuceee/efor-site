@@ -8,14 +8,6 @@
   &--is-expanded {
     background-color: rgba(0, 0, 0, 0.75);
   }
-  
-  /* @mixin atMedium {
-    position: fixed;
-
-    &--dark {
-      background-color: rgba(0,0,0, .65);
-    }
-  } */
 
   &__btn-container {
     @mixin atMedium {
@@ -37,19 +29,12 @@
       left: auto;
       transform: translateX(0);
 
-      .site-header--dark & {
-        transform: scale(.55);
-      }
     }
 
     img {
       width: 125.75px;
       height: 55.25px;
     }
-  }
-
-  &__logo__graphic {
-    text-indent: -9999px;
   }
 
   &__menu-icon {

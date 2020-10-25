@@ -4,14 +4,6 @@
   @mixin atMedium {
     padding: 5.5rem 0 0;
   }
-
- /*  @mixin atLarge {
-    padding: 4.5rem 0 0;
-  } */
-
-  &--no-b-padding {
-    padding-bottom: 0;
-  }
   
   &--services {
     padding: 0;
