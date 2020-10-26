@@ -21,9 +21,8 @@
   &__img {
 
     svg {
-      width: 75px;
-      height: 75px;
-      stroke: $mainOrange;
+      width: 85px;
+      height: 85px;
     }
   }
 
